@@ -3,7 +3,7 @@ package tp7;
 public class CompteEpargne extends Compte {
 	private double tauxInteret;
 	
-	public CompteEpargne(Client unClient , int unNumero, int unSolde, double unTauxDInteret){
+	public CompteEpargne(Client unClient , int unNumero, double unSolde, double unTauxDInteret){
 		super(unClient,unNumero,unSolde);
 		this.tauxInteret = unTauxDInteret;
 	}

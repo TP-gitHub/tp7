@@ -34,7 +34,15 @@ public class Compte {
 	
 	
 	// methodes
-	public void crediterSolde(int somme){
+	public void crediterSolde(double somme){
+		this.solde += somme;
+	}
+	
+	public void debiterSolde(double somme){
+		this.solde -= somme;
+	}
+	
+	public void transfertMontant(CompteCourant unCompteCourant){
 		
 	}
 	
