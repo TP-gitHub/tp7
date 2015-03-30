@@ -12,8 +12,19 @@ public class CompteCourant extends Compte {
 		super(unClient,unNumero,unSolde);
 		this.decouvert = unDecouvert;
 	}
-	
-	public void crediterSolde {
-		
+
+	public double getDecouvert() {
+		return decouvert;
 	}
+
+	public void setDecouvert(double decouvert) {
+		this.decouvert = decouvert;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString()+"CompteCourant [decouvert=" + decouvert + "]";
+	}
+	
+	
 }
