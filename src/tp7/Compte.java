@@ -3,9 +3,9 @@ package tp7;
 public class Compte {
 	private Client client;
 	private int numero;
-	private int solde;
+	private double solde;
 	
-	public Compte(Client unClient, int unNumero, int unSolde){
+	public Compte(Client unClient, int unNumero, double unSolde){
 		this.client = unClient;
 		this.numero = unNumero;
 		this.solde = unSolde;
@@ -25,7 +25,7 @@ public class Compte {
 	public void setNumero(int numero) {
 		this.numero = numero;
 	}
-	public int getSolde() {
+	public double getSolde() {
 		return solde;
 	}
 	public void setSolde(int solde) {

@@ -23,7 +23,7 @@ public class CompteEpargne extends Compte {
 	//methode
 	
 	//get solde redefinit calcul avec interet
-	public int getSolde(){
+	public double getSolde(){
 		return 0;
 		
 	}
