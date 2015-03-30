@@ -24,8 +24,8 @@ public class CompteEpargne extends Compte {
 	
 	//get solde redefinit calcul avec interet
 	public double getSolde(){
-		return 0;
-		
+		double result = (super.getSolde() * tauxInteret) / 100;
+		return result;
 	}
 	//toString
 	@Override
